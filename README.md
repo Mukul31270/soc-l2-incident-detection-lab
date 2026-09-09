@@ -1,13 +1,21 @@
 # SOC L2 Incident Detection & Investigation Lab
 
-A hands-on Security Operations Center (SOC) lab built with Wazuh, Windows 11, Sysmon, and Kali Linux.
+I designed and implemented this hands-on Security Operations Center (SOC) lab to practice real-world incident detection, alert triage, endpoint investigation, MITRE ATT&CK mapping, IOC extraction, and incident documentation.
 
-## Architecture
+The lab simulates a small SOC environment using Kali Linux as the attacker/analyst system, Windows 11 as the monitored endpoint, Sysmon for endpoint telemetry, and Wazuh for centralized security monitoring and detection.
 
-- Kali Linux — Attacker / Analyst
-- Windows 11 — Monitored Endpoint
-- Wazuh — SIEM / XDR
-- Sysmon — Endpoint Telemetry
+## What I Implemented
+
+- Designed the SOC lab architecture
+- Deployed and configured Wazuh
+- Configured a Windows 11 endpoint with Wazuh Agent
+- Integrated Sysmon endpoint telemetry
+- Generated controlled security events in an isolated lab
+- Analyzed Wazuh alerts and endpoint telemetry
+- Investigated suspicious activity
+- Mapped detections to MITRE ATT&CK
+- Extracted indicators of compromise (IOCs)
+- Documented incident investigations and findings
 
 ## Detection Scenarios
 
@@ -19,17 +27,18 @@ A hands-on Security Operations Center (SOC) lab built with Wazuh, Windows 11, Sy
 
 ## Investigation Workflow
 
-Attack Simulation → Telemetry → Wazuh Alert → Triage → Investigation → MITRE Mapping → IOC Extraction → Incident Report
+Attack Simulation → Telemetry Collection → Wazuh Detection → Alert Triage → Investigation → MITRE ATT&CK Mapping → IOC Extraction → Incident Documentation
 
-## Objective
+## Key Skills Demonstrated
 
-This project demonstrates practical SOC L2 capabilities including alert analysis, endpoint investigation, detection engineering, MITRE ATT&CK mapping, IOC extraction, and incident documentation.
-
-## Lab Environment
-
-| Component | Role |
-|---|---|
-| Kali Linux | Attacker / Analyst |
-| Windows 11 | Victim Endpoint |
-| Wazuh | SIEM / Detection |
-| Sysmon | Endpoint Telemetry |
+- SIEM Monitoring
+- Wazuh
+- Windows Security Monitoring
+- Sysmon
+- Alert Triage
+- Incident Investigation
+- Detection Analysis
+- MITRE ATT&CK
+- IOC Extraction
+- Endpoint Telemetry
+- Security Documentation
